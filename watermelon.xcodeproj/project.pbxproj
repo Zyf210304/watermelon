@@ -50,6 +50,7 @@
 		0094EEE425DE0B2600FB17A5 /* win.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0094EEE125DE0B2600FB17A5 /* win.mp3 */; };
 		0094EEE525DE0B2600FB17A5 /* falldown.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0094EEE225DE0B2600FB17A5 /* falldown.mp3 */; };
 		0094EEE625DE0B2600FB17A5 /* bomb.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0094EEE325DE0B2600FB17A5 /* bomb.mp3 */; };
+		02FD827025DEA9420012FC5C /* FruitUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02FD826F25DEA9420012FC5C /* FruitUtil.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -98,6 +99,7 @@
 		0094EEE125DE0B2600FB17A5 /* win.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = win.mp3; sourceTree = "<group>"; };
 		0094EEE225DE0B2600FB17A5 /* falldown.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = falldown.mp3; sourceTree = "<group>"; };
 		0094EEE325DE0B2600FB17A5 /* bomb.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bomb.mp3; sourceTree = "<group>"; };
+		02FD826F25DEA9420012FC5C /* FruitUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitUtil.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,8 +133,8 @@
 		0094EE8025DE09DC00FB17A5 /* watermelon */ = {
 			isa = PBXGroup;
 			children = (
+				02FD826F25DEA9420012FC5C /* FruitUtil.swift */,
 				0094EEE025DE0B2600FB17A5 /* Sounds */,
-				0094EEDF25DE0AC300FB17A5 /* Utils */,
 				0094EEDE25DE0A9E00FB17A5 /* Scene */,
 				0094EEDD25DE0A8300FB17A5 /* Bootstrap */,
 				0094EE8725DE09DD00FB17A5 /* Assets.xcassets */,
@@ -231,13 +233,6 @@
 				0038505825DE37B000CFC680 /* GameScene.swift */,
 			);
 			path = Scene;
-			sourceTree = "<group>";
-		};
-		0094EEDF25DE0AC300FB17A5 /* Utils */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Utils;
 			sourceTree = "<group>";
 		};
 		0094EEE025DE0B2600FB17A5 /* Sounds */ = {
@@ -357,6 +352,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0094EE8225DE09DC00FB17A5 /* AppDelegate.swift in Sources */,
+				02FD827025DEA9420012FC5C /* FruitUtil.swift in Sources */,
 				0094EE8425DE09DC00FB17A5 /* SceneDelegate.swift in Sources */,
 				0038505925DE37B000CFC680 /* GameScene.swift in Sources */,
 				0094EE8625DE09DC00FB17A5 /* ContentView.swift in Sources */,
