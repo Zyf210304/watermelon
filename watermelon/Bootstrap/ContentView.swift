@@ -9,12 +9,13 @@ import SwiftUI
 import SpriteKit
 
 let screen = UIScreen.main.bounds
+let statusBarHeight = UIApplication.shared.windows.first?.windowScene?.statusBarManager?.statusBarFrame.size.height
 
 struct ContentView: View {
     
     var scene: SKScene {
         
-        let scene = SKScene()
+        let scene = GameScene()
         
         scene.size = CGSize(width: screen.width, height: screen.height)
         

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0038505925DE37B000CFC680 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0038505825DE37B000CFC680 /* GameScene.swift */; };
 		0094EE8225DE09DC00FB17A5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0094EE8125DE09DC00FB17A5 /* AppDelegate.swift */; };
 		0094EE8425DE09DC00FB17A5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0094EE8325DE09DC00FB17A5 /* SceneDelegate.swift */; };
 		0094EE8625DE09DC00FB17A5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0094EE8525DE09DC00FB17A5 /* ContentView.swift */; };
@@ -52,6 +53,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0038505825DE37B000CFC680 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		0094EE7E25DE09DC00FB17A5 /* watermelon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = watermelon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0094EE8125DE09DC00FB17A5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0094EE8325DE09DC00FB17A5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -226,6 +228,7 @@
 		0094EEDE25DE0A9E00FB17A5 /* Scene */ = {
 			isa = PBXGroup;
 			children = (
+				0038505825DE37B000CFC680 /* GameScene.swift */,
 			);
 			path = Scene;
 			sourceTree = "<group>";
@@ -355,6 +358,7 @@
 			files = (
 				0094EE8225DE09DC00FB17A5 /* AppDelegate.swift in Sources */,
 				0094EE8425DE09DC00FB17A5 /* SceneDelegate.swift in Sources */,
+				0038505925DE37B000CFC680 /* GameScene.swift in Sources */,
 				0094EE8625DE09DC00FB17A5 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
