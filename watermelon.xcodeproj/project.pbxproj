@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		002966DD25DF527A00D6FB70 /* GameScene+LoadUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002966DC25DF527A00D6FB70 /* GameScene+LoadUI.swift */; };
+		002966E025DF52E600D6FB70 /* GameScene+Touches.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002966DF25DF52E600D6FB70 /* GameScene+Touches.swift */; };
+		002966E525DF56D000D6FB70 /* FruitTexture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002966E425DF56D000D6FB70 /* FruitTexture.swift */; };
+		002966E925DF5CF800D6FB70 /* GameScene+Collisions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002966E825DF5CF800D6FB70 /* GameScene+Collisions.swift */; };
 		0038505925DE37B000CFC680 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0038505825DE37B000CFC680 /* GameScene.swift */; };
 		0094EE8225DE09DC00FB17A5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0094EE8125DE09DC00FB17A5 /* AppDelegate.swift */; };
 		0094EE8425DE09DC00FB17A5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0094EE8325DE09DC00FB17A5 /* SceneDelegate.swift */; };
@@ -54,6 +58,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		002966DC25DF527A00D6FB70 /* GameScene+LoadUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GameScene+LoadUI.swift"; sourceTree = "<group>"; };
+		002966DF25DF52E600D6FB70 /* GameScene+Touches.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GameScene+Touches.swift"; sourceTree = "<group>"; };
+		002966E425DF56D000D6FB70 /* FruitTexture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitTexture.swift; sourceTree = "<group>"; };
+		002966E825DF5CF800D6FB70 /* GameScene+Collisions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GameScene+Collisions.swift"; sourceTree = "<group>"; };
 		0038505825DE37B000CFC680 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		0094EE7E25DE09DC00FB17A5 /* watermelon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = watermelon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0094EE8125DE09DC00FB17A5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -113,6 +121,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		002966E225DF56BE00D6FB70 /* Fruit */ = {
+			isa = PBXGroup;
+			children = (
+				02FD826F25DEA9420012FC5C /* FruitUtil.swift */,
+				002966E425DF56D000D6FB70 /* FruitTexture.swift */,
+			);
+			path = Fruit;
+			sourceTree = "<group>";
+		};
 		0094EE7525DE09DC00FB17A5 = {
 			isa = PBXGroup;
 			children = (
@@ -133,7 +150,7 @@
 		0094EE8025DE09DC00FB17A5 /* watermelon */ = {
 			isa = PBXGroup;
 			children = (
-				02FD826F25DEA9420012FC5C /* FruitUtil.swift */,
+				002966E225DF56BE00D6FB70 /* Fruit */,
 				0094EEE025DE0B2600FB17A5 /* Sounds */,
 				0094EEDE25DE0A9E00FB17A5 /* Scene */,
 				0094EEDD25DE0A8300FB17A5 /* Bootstrap */,
@@ -231,6 +248,9 @@
 			isa = PBXGroup;
 			children = (
 				0038505825DE37B000CFC680 /* GameScene.swift */,
+				002966DC25DF527A00D6FB70 /* GameScene+LoadUI.swift */,
+				002966DF25DF52E600D6FB70 /* GameScene+Touches.swift */,
+				002966E825DF5CF800D6FB70 /* GameScene+Collisions.swift */,
 			);
 			path = Scene;
 			sourceTree = "<group>";
@@ -351,10 +371,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				002966E525DF56D000D6FB70 /* FruitTexture.swift in Sources */,
 				0094EE8225DE09DC00FB17A5 /* AppDelegate.swift in Sources */,
 				02FD827025DEA9420012FC5C /* FruitUtil.swift in Sources */,
+				002966E925DF5CF800D6FB70 /* GameScene+Collisions.swift in Sources */,
+				002966E025DF52E600D6FB70 /* GameScene+Touches.swift in Sources */,
 				0094EE8425DE09DC00FB17A5 /* SceneDelegate.swift in Sources */,
 				0038505925DE37B000CFC680 /* GameScene.swift in Sources */,
+				002966DD25DF527A00D6FB70 /* GameScene+LoadUI.swift in Sources */,
 				0094EE8625DE09DC00FB17A5 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
