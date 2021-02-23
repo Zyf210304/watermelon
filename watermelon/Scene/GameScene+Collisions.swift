@@ -16,10 +16,16 @@ extension GameScene {
         
         let collision = contact.bodyA.categoryBitMask | contact.bodyB.categoryBitMask
         
+        
+        print("++++++++",contact.bodyA.categoryBitMask, contact.bodyB.categoryBitMask)
+        
         for fruit in FruitTexture.allCases {
             
             let fruitBit = fruit.bitmask | fruit.bitmask
+            
             if fruitBit == collision {
+                
+//                print("+++++", fruitBit, collision)
                 
                 let nodeA = contact.bodyA.node!
                 let nodeB = contact.bodyB.node!
